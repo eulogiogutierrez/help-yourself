@@ -6,7 +6,7 @@ import play.api.mvc._
 
 
 @Singleton
-class HomeController @Inject() extends Controller {
+class WhatDoYouWantToDoController @Inject() extends Controller {
 
 
   def index = Action {
