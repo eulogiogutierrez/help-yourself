@@ -1,2 +1,2 @@
-GET     /                           controllers.WhatDoYouWantToDo.index
+GET     /                           controllers.WhatDoYouWantToDoController.index
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
